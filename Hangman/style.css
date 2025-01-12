@@ -1,0 +1,127 @@
+/* General Styling */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+#game-content {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2 {
+    color: #c10000;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#choices {
+    margin-top: 20px;
+}
+
+/* Hidden Word */
+#hidden-word {
+    margin-top: 30px;
+    font-size: 24px;
+    letter-spacing: 5px;
+}
+
+#hidden-word span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Alphabet buttons */
+#alphabet-container {
+    margin-top: 20px;
+}
+
+#alphabet-container button {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+
+}
+
+#alphabet-container button:hover {
+    background-color: #e0e0e0;
+}
+
+/* Lives section */
+#livesP {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#livesSpan,#timer{
+    font-size: 24px;
+    font-weight: bold;
+    color: #bb0000;
+}
+
+/* Game End Messages */
+#youWonP{
+    font-size: 24px;
+    font-weight: bold;
+    color: #08d316;
+    margin-top: 20px;
+}
+ #youLostP ,#timeUpP{
+    font-size: 24px;
+    font-weight: bold;
+    color: #bb0000;
+    margin-top: 20px;
+}
+#refresh-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#refresh-button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#refresh-button-container button:hover {
+    background-color: #0056b3;
+}
+
